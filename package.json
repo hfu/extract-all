@@ -1,0 +1,23 @@
+{
+  "name": "extract-all",
+  "version": "1.0.0",
+  "description": "try to extract all z=6 modules from planet.osm.pbf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfu/extract-all.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hfu/extract-all/issues"
+  },
+  "homepage": "https://github.com/hfu/extract-all#readme",
+  "dependencies": {
+    "@mapbox/tilebelt": "^1.0.1"
+  }
+}
