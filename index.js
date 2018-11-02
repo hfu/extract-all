@@ -16,8 +16,8 @@ for (x = 0; x < 2 ** z; x++) {
       }]
     }, null, 2))
     execSync(
-      `osmium extract --overwrite --config=config.json --progress ../osmium-qa/planet-181008.osm.pbf`,
-      { stdio: [0, 1,2] }
+      `osmium extract --overwrite --config=config.json --progress ../osmium-qa/planet-181029.osm.pbf`,
+      { stdio: [0, 1, 2] }
     ) 
   }
 }
