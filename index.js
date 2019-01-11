@@ -8,7 +8,7 @@ for (x = 0; x < 2 ** z; x++) {
   for (y = 0; y < 2 ** z; y++) {
     console.log(`${new Date()}: creating ${z}-${x}-${y}.pbf`)
     let bbox = tilebelt.tileToBBOX([x, y, z])
-    const buffer = (bbox[2] - bbox[1]) * 5 / 256
+    const buffer = (bbox[2] - bbox[0]) * 5 / 256
     bbox = [bbox[0] - buffer, bbox[1] - buffer, 
       bbox[2] + buffer, bbox[3] + buffer]
     fs.writeFileSync('config.json', JSON.stringify({
